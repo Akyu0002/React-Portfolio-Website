@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 import Header from "../components/layouts/Header";
 import About from "../components/sections/About";
 import Brandlogos from "../components/sections/Brandlogos";
-import Contact from "../components/sections/Contact";
+// import Contact from "../components/sections/Contact";
 import Experiences from "../components/sections/Experiences";
 import Herosection from "../components/sections/Herosection";
 import Works from "../components/sections/Works";
