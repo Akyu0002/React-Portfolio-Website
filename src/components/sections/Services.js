@@ -9,7 +9,7 @@ const servicesData = [
     icon: "images/service-1.svg",
     title: "UI/UX design",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Providing elegent and user friendly interfaces for your web applications.",
     color: "#6C6CE5",
     contentColor: "light",
   },
@@ -18,19 +18,19 @@ const servicesData = [
     icon: "images/service-2.svg",
     title: "Web Development",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Creating responsive websites and mobile applications using the latest technologies.",
     color: "#F9D74C",
     contentColor: "dark",
   },
-  {
-    id: 3,
-    icon: "images/service-3.svg",
-    title: "Photography",
-    content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
-    color: "#F97B8B",
-    contentColor: "light",
-  },
+  // {
+  //   id: 3,
+  //   icon: "images/service-3.svg",
+  //   title: "Photography",
+  //   content:
+  //     "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+  //   color: "#F97B8B",
+  //   contentColor: "light",
+  // },
 ];
 
 function Services() {

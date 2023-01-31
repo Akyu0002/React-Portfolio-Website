@@ -47,23 +47,12 @@ function HomepageDark() {
         <Element name="section-services">
           <Services />
         </Element>
+
         <Element name="section-experiences">
           <Experiences />
         </Element>
         <Element name="section-works">
           <Works />
-        </Element>
-        <Element name="section-pricing">
-          <Pricing />
-        </Element>
-        <Element name="section-testimoninal">
-          <Testimonials />
-        </Element>
-        <Element name="section-brandlogos">
-          <BrandlogosDark />
-        </Element>
-        <Element name="section-blogs">
-          <Blogs />
         </Element>
         <Element name="section-contact">
           <Contact />

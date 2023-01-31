@@ -19,7 +19,7 @@ function Homepage3Light() {
 
   return (
     <>
-      <Header3 light logoSource="/images/logo-dark.svg" />
+      <Header3 light logoSource="/images/logo.svg" />
       <main className="content-3">
         <Element name="section-home">
           <ReactCursorPosition>
@@ -32,23 +32,14 @@ function Homepage3Light() {
         <Element name="section-services">
           <Services />
         </Element>
+        <Element name="section-brandlogos">
+          <Brandlogos />
+        </Element>
         <Element name="section-experiences">
           <Experiences />
         </Element>
         <Element name="section-works">
           <Works />
-        </Element>
-        <Element name="section-pricing">
-          <Pricing />
-        </Element>
-        <Element name="section-testimoninal">
-          <Testimonials />
-        </Element>
-        <Element name="section-brandlogos">
-          <Brandlogos />
-        </Element>
-        <Element name="section-blogs">
-          <Blogs />
         </Element>
         <Element name="section-contact">
           <Contact />

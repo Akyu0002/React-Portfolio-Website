@@ -5,29 +5,29 @@ import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
 const aboutContent = {
-  name: "Bolby",
-  avatarImage: "/images/avatar-2.svg",
+  name: "Tibet",
+  avatarImage: "/images/profilephoto.jpeg",
   content:
-    "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+    "Hey! I'm Tibet, a Mobile Applications Designer / Developer and Software Engineer from Ottawa, Canada. I have experience in building and designing responsive Web Applications and developing Cyber Security applications. I am fluent in JS/HTML/CSS, Python and React, I am also a huge coffee addict.",
 };
 
 const progressData = [
   {
     id: 1,
-    title: "Development",
+    title: "Responsive Web Development",
     percantage: 85,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
     title: "UI/UX Design",
-    percantage: 95,
+    percantage: 75,
     progressColor: "#FF4C60",
   },
   {
     id: 3,
-    title: "Photography",
-    percantage: 70,
+    title: "Cyber Security Applications",
+    percantage: 55,
     progressColor: "#6C6CE5",
   },
 ];
@@ -35,26 +35,26 @@ const progressData = [
 const counterData = [
   {
     id: 1,
-    title: "Projects completed",
-    count: 198,
+    title: "Projects Completed",
+    count: 12,
     icon: "icon-fire",
   },
   {
     id: 2,
-    title: "Cup of coffee",
-    count: 5670,
+    title: "Cups of Coffee",
+    count: 69420,
     icon: "icon-cup",
   },
   {
     id: 3,
-    title: "Satisfied clients",
-    count: 427,
+    title: "Hours of Study",
+    count: 654,
     icon: "icon-people",
   },
   {
     id: 4,
-    title: "Nominees winner",
-    count: 35,
+    title: "Years of Honour Role",
+    count: 2,
     icon: "icon-badge",
   },
 ];
@@ -78,7 +78,10 @@ function About() {
                 <div className="col-md-6">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="!#" className="btn btn-default">
+                    <a
+                      href="https://drive.google.com/file/d/1s3NSQN9r8oe2OAliojcKZD49Z71X_UFX/view?usp=sharing"
+                      className="btn btn-default"
+                    >
                       Download CV
                     </a>
                   </div>

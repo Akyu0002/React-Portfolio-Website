@@ -66,17 +66,6 @@ function Header2({ light, logoSource, toggleMenu, headerToggler }) {
             <li>
               <Link
                 activeClass="active"
-                to="section-services"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <i className="icon-briefcase"></i>
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="active"
                 to="section-experiences"
                 spy={true}
                 smooth={true}
@@ -99,17 +88,6 @@ function Header2({ light, logoSource, toggleMenu, headerToggler }) {
             <li>
               <Link
                 activeClass="active"
-                to="section-blogs"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <i className="icon-note"></i>
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="active"
                 to="section-contact"
                 spy={true}
                 smooth={true}
@@ -123,7 +101,7 @@ function Header2({ light, logoSource, toggleMenu, headerToggler }) {
 
         <div className="footer">
           <span className="copyright">
-            &copy; {new Date().getFullYear()} Bolby Template.
+            &copy; {new Date().getFullYear()} Tibet Akyurekli
           </span>
         </div>
       </header>

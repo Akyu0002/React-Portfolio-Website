@@ -921,9 +921,18 @@ select.portfolio-filter-mobile {
 }
 
 /*=================================================================*/
-/*                      CLIENTS                              
+/*                              TECHS                              
 /*=================================================================*/
+.alignTech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
 .client-item {
+  width: 30%;
   min-height: 50px;
   position: relative;
   text-align: center;

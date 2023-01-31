@@ -5,48 +5,26 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
-    title: "Acamedic Degree",
-    years: "2019 - Present",
+    title: "Mobile Application Design & Dev.",
+    years: "September 2021 - Present",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Learning to develop responsive mobile applications and websites along with proper UI/UX design. Current GPA: 3.97",
   },
   {
     id: 2,
-    title: "Bachelor’s Degree",
-    years: "2017 - 2013",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 3,
-    title: "Honours Degree",
-    years: "2013 - 2009",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+    title: "Sir Robert Borden High School",
+    years: "2008 - 2011",
+    content: "Focused my senior years in Math, Physics and Chemistry.",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "Web Designer",
-    years: "2019 - Present",
+    title: "DG Cyber | Department of National Defence",
+    years: "June 2022 - Present",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 2,
-    title: "Front-End Developer",
-    years: "2017 - 2013",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 3,
-    title: "Back-End Developer",
-    years: "2013 - 2009",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Mission Assurance and Cyber Force Development for the Canadian Armed Forces.",
   },
 ];
 

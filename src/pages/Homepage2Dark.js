@@ -31,7 +31,7 @@ function Homepage2Dark() {
   return (
     <>
       <Header2
-        logoSource="/images/logo-b-light.svg"
+        logoSource="/images/logo.svg"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />
@@ -47,23 +47,14 @@ function Homepage2Dark() {
         <Element name="section-services">
           <Services />
         </Element>
+        <Element name="section-brandlogos">
+          <Brandlogos />
+        </Element>
         <Element name="section-experiences">
           <Experiences />
         </Element>
         <Element name="section-works">
           <Works />
-        </Element>
-        <Element name="section-pricing">
-          <Pricing />
-        </Element>
-        <Element name="section-testimoninal">
-          <Testimonials />
-        </Element>
-        <Element name="section-brandlogos">
-          <Brandlogos />
-        </Element>
-        <Element name="section-blogs">
-          <Blogs />
         </Element>
         <Element name="section-contact">
           <Contact />

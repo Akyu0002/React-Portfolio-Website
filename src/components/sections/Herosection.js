@@ -24,19 +24,25 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
+          <h1> Hi, my name is</h1>
+          {/* <img
+            src="images/profilephoto-modified.png"
+            alt="Tibet"
+            className="mb-4"
+          /> */}
 
-          <h1 className="mb-2 mt-0">Bolby Doe</h1>
+          <h1 className="mb-2 mt-0">Tibet Akyurekli</h1>
           <p>
-            I'm a{" "}
+            I love{" "}
             <Typed
               strings={[
-                "UI/UX designer ",
-                "Front-End developer",
-                "Photography lover",
+                "Coffee",
+                "Cyber Security",
+                "Web Development",
+                "& Space",
               ]}
-              typeSpeed={80}
-              backSpeed={40}
+              typeSpeed={60}
+              backSpeed={20}
               attr="value"
               loop
             >
@@ -46,28 +52,18 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="https://www.instagram.com/tibetyasar/">
                 <i className="fab fa-instagram"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="https://twitter.com/YasarTibet">
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-behance"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-pinterest-p"></i>
+                <i className="fab fa-linkedin-p"></i>
               </a>
             </li>
           </ul>
@@ -80,7 +76,7 @@ function Herosection(props) {
               smooth={true}
               duration={500}
             >
-              Hire me
+              Hire Me!
             </Link>
           </div>
         </div>

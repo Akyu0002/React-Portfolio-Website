@@ -17,16 +17,20 @@ function Herosection(props) {
     <section id="home" className="home d-flex align-items-center">
       <div className="container">
         <div className="intro">
-          <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
+          {/* <img
+            src="images/avatar-1.svg"
+            alt="Tibet Akyurekli"
+            className="mb-4"
+          /> */}
 
-          <h1 className="mb-2 mt-0">Bolby Doe</h1>
+          <h1 className="mb-2 mt-0">Tibet Akyurekli</h1>
           <p>
             I'm a{" "}
             <Typed
               strings={[
-                "UI/UX designer ",
-                "Front-End developer",
-                "Photography lover",
+                "Full-Stack Web Developer",
+                "Cyber Security Enthusiast",
+                "Coffee Addict",
               ]}
               typeSpeed={80}
               backSpeed={40}
@@ -39,30 +43,20 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="https://www.instagram.com/tibetyasar/">
                 <i className="fab fa-instagram"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="https://twitter.com/YasarTibet">
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
-            <li className="list-inline-item">
+            {/* <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-behance"></i>
+                <i className="fab fa-linkedin-p"></i>
               </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-pinterest-p"></i>
-              </a>
-            </li>
+            </li> */}
           </ul>
 
           <div className="mt-4">
