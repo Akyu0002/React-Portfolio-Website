@@ -15,19 +15,19 @@ const progressData = [
   {
     id: 1,
     title: "Responsive Web Development",
-    percantage: 85,
+    percantage: 100,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
     title: "UI/UX Design",
-    percantage: 75,
+    percantage: 90,
     progressColor: "#FF4C60",
   },
   {
     id: 3,
-    title: "Cyber Security Applications",
-    percantage: 55,
+    title: "Mobile Application Development",
+    percantage: 75,
     progressColor: "#6C6CE5",
   },
 ];
@@ -36,13 +36,13 @@ const counterData = [
   {
     id: 1,
     title: "Projects Completed",
-    count: 12,
+    count: 20,
     icon: "icon-fire",
   },
   {
     id: 2,
     title: "Cups of Coffee",
-    count: 69420,
+    count: 10000,
     icon: "icon-cup",
   },
   {
@@ -54,7 +54,7 @@ const counterData = [
   {
     id: 4,
     title: "Years of Honour Role",
-    count: 2,
+    count: 3,
     icon: "icon-badge",
   },
 ];
@@ -67,7 +67,11 @@ function About() {
         <div className="row">
           <div className="col-md-3">
             <div className="text-center text-md-left">
-              <img src={aboutContent.avatarImage} alt={aboutContent.name} />
+              <img
+                src={aboutContent.avatarImage}
+                alt={aboutContent.name}
+                style={{ borderRadius: 20 }}
+              />
             </div>
             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
           </div>
@@ -79,7 +83,7 @@ function About() {
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
                     <a
-                      href="https://drive.google.com/file/d/1s3NSQN9r8oe2OAliojcKZD49Z71X_UFX/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1s3NSQN9r8oe2OAliojcKZD49Z71X_UFX/view?usp=share_link"
                       className="btn btn-default"
                     >
                       Download CV

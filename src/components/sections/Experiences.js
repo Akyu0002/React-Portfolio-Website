@@ -8,7 +8,7 @@ const educationData = [
     title: "Mobile Application Design & Dev.",
     years: "September 2021 - Present",
     content:
-      "Learning to develop responsive mobile applications and websites along with proper UI/UX design. Current GPA: 3.97",
+      "Learning to develop responsive mobile applications and websites along with proper UI/UX design. Current GPA: 3.99",
   },
   {
     id: 2,
@@ -22,9 +22,22 @@ const experienceData = [
   {
     id: 1,
     title: "DG Cyber | Department of National Defence",
-    years: "June 2022 - Present",
+    years: "January 2023 - Present",
+    content: "Second FSWEP term shadowing SharePoint Developer Experts.",
+  },
+  {
+    id: 2,
+    title: "Mobile Application Developer | Algonquin College",
+    years: "September 2022 - December 2022",
     content:
-      "Mission Assurance and Cyber Force Development for the Canadian Armed Forces.",
+      "Assisted in full-stack mobile development in React Native & Firebase for the Smart Living Properties application, Smart Tenant",
+  },
+  {
+    id: 3,
+    title: "DG Cyber | Department of National Defence",
+    years: "June 2022 - September 2022",
+    content: `As an IA, Solved IM related issues for DG Cyber sections by submitting tickets to Assyst or
+changing GCdocs permissions and extracting monthly SharedDrive & GCdocs Usage Reports and creating powerpoint presentations for the L2's.`,
   },
 ];
 
